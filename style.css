@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #b07cf7;
+    font-family: "Raleway";
+}
+.conteiner{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+.heading{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 45px;
+}
+.heading-title{
+    font-weight: 700;
+    font-size: 90px;
+}
+.heading-description{
+    text-align: justify;
+    text-align-last: center;
+    max-width: 563px;
+    font-size: 17px;
+    font-weight: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap; 
+    margin: -15px; 
+}
+.grid-item{
+    width: calc(100% / 3 - 30px);
+    margin: 15px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+.card:hover{
+    background-color: grey;
+    opacity: 0.7;
+    color: black;
+}
+.card{
+    max-height: 318px;
+}
+.card-imege{    
+    width: 100%;  
+    
+}
+.card-data{
+    position: absolute; 
+    left: 30px;
+    top: 30px;    
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 60px;
+    max-height: 60px;
+    font-size: 21px;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    text-align: center;     
+}
+.card-title, .card-author{
+    position: absolute; 
+    left: 20px; 
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+}
+.card-title{
+    bottom: 70px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.card-author{
+    bottom: 20px;
+    font-size: 13px;
+    font-weight: 300;
+}
+.button{
+    display: inline-flex;
+    padding: 20px 43px;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: #f72b3b;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 120px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);     
+}
+.button:hover{
+    background-color: grey;
+    opacity: 0.5;
+    color: #f72b3b;
+    border: #f72b3b solid;
+}
+
+
